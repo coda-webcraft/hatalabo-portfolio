@@ -1,0 +1,139 @@
+/*
+Theme Name: Lightning Child Sample
+Theme URI: 
+Template: lightning
+Description: 
+Author: 
+Tags: 
+Version: 0.6.0
+*/
+/* ==========================================
+   ハタラボ 配色設定
+   ========================================== */
+:root {
+  --hatalabo-main: #b5714a; /* テラコッタブラウン */
+  --hatalabo-accent: #7a8b6f; /* セージグリーン */
+  --hatalabo-bg: #faf5ec; /* クリームホワイト */
+  --hatalabo-text: #4a3f35; /* ダークブラウン */
+}
+/* ページタイトル部分(パンくずの上の帯) */
+.page-header {
+  background-color: var(--hatalabo-main) !important;
+}
+
+/* 全体の背景色・文字色 */
+body {
+  background-color: var(--hatalabo-bg);
+  color: var(--hatalabo-text);
+}
+
+/* ヘッダー */
+#site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ede4d8;
+}
+
+/* リンク・ボタンのメインカラー */
+a {
+  color: var(--hatalabo-main);
+}
+
+.btn,
+button,
+input[type="submit"] {
+  background-color: var(--hatalabo-main);
+  border-color: var(--hatalabo-main);
+  color: #ffffff;
+}
+
+/* フッター */
+#site-footer {
+  background-color: var(--hatalabo-text);
+  color: #faf5ec;
+}
+
+/* ヘッダーナビゲーションの文字色 */
+#global-nav a {
+  color: var(--hatalabo-text);
+}
+
+/* ホバー時の色 */
+#global-nav a:hover {
+  color: var(--hatalabo-main);
+}
+
+/* 現在地(閲覧中のページ)のメニュー項目 */
+#global-nav .current-menu-item a {
+  color: var(--hatalabo-main);
+  font-weight: bold;
+}
+
+/* 現在地メニューのアンダーライン */
+.global-nav-list > li:before {
+  border-bottom-color: var(--hatalabo-main) !important;
+}
+
+/* お問い合わせフォームの最大幅を制限 */
+.wpforms-container {
+  max-width: 700px;
+}
+
+/* お問い合わせ内容の入力欄の幅を他と揃える */
+.wpforms-container textarea {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* ボタンの色をハタラボカラーに統一 */
+.wp-block-button__link,
+.vk_button,
+a.btn {
+  background-color: var(--hatalabo-main) !important;
+  border-color: var(--hatalabo-main) !important;
+  color: #FFFFFF !important;
+}
+
+.wp-block-button__link:hover,
+.vk_button:hover,
+a.btn:hover {
+  background-color: var(--hatalabo-text) !important;
+  border-color: var(--hatalabo-text) !important;
+}
+
+/* ヘッダーのサイトタイトル文字を非表示(ロゴ画像のみ表示) */
+.site-header-logo .site-title,
+.site-header-logo a.site-title-link {
+  font-size: 0;
+}
+.site-header-logo img {
+  font-size: initial;
+}
+
+/* 会社概要テーブルの列幅調整 */
+.wp-block-table td:first-child,
+.wp-block-table th:first-child {
+  width: 25%;
+}
+
+/* 会社概要テーブルの全体幅を制限 */
+.wp-block-table {
+  max-width: 700px;
+}
+
+.service-columns .wp-block-column:not(:first-child) {
+  border-left: 1px solid #E0D5C8 !important;
+  padding-left: 24px !important;
+}
+
+/* お知らせ・ブログ:タイトルと日付を横並びに */
+.wp-block-latest-posts__post-title,
+.wp-block-latest-posts__post-date {
+  display: inline-block;
+}
+.wp-block-latest-posts__post-date {
+  margin-left: 12px;
+  color: var(--hatalabo-text);
+  opacity: 0.7;
+  font-size: 0.9em;
+}
