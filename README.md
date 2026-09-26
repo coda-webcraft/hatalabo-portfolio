@@ -7,6 +7,12 @@
 
 [https://coda-webcraft.github.io/hatalabo-portfolio/](https://coda-webcraft.github.io/hatalabo-portfolio/)
 
+## 画面イメージ
+
+| PC | スマホ |
+|---|---|
+| ![トップページ(PC)](docs/screenshots/top-pc.png) | ![トップページ(スマホ)](docs/screenshots/top-sp.png) |
+
 ## 📝 このサイトについて
 
 「インスタだけでは伝えきれない魅力を、もう一つの入口で届ける」というコンセプトのもと、
