@@ -9,8 +9,6 @@
 
 ## 画面イメージ
 
-## 画面イメージ
-
 | PC | スマホ |
 |---|---|
 | ![トップページ(PC)](docs/screenshots/top-pc.png) | ![トップページ(スマホ)](docs/screenshots/top-sp.png) |
