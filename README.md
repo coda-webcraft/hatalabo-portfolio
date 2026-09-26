@@ -9,12 +9,7 @@
 
 ## 画面イメージ
 
-| PC | スマホ |
-|---|---|
-| ![トップページ(PC)](docs/screenshots/top-pc.png) | ![トップページ(スマホ)](docs/screenshots/top-sp.png) |
-| PC | スマホ |
-|---|---|
-| <img src="docs/screenshots/top-pc.png" width="400"> | <img src="docs/screenshots/top-sp.png" width="200"> |
+
 
 ## 📝 このサイトについて
 
